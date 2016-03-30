@@ -406,7 +406,7 @@ extension NSDate {
 
     /// Get the year component of the date in current region (use inRegion(...).year to get the year
     /// component in specified time zone)
-    public var year: Int {
+    internal var year: Int {
         return self.inRegion().year
     }
 
